@@ -1,0 +1,29 @@
+{
+  "name": "dex-contracts",
+  "version": "1.0.0",
+  "description": "Contacts to experiment with state channels",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "truffle build",
+    "migrate-reset": "truffle migrate --compile-all --reset ",
+    "compile": "truffle compile --reset ",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber": "^1.1.0",
+    "bignumber.js": "^8.1.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "openzeppelin-solidity": "^2.2.0",
+    "openzeppelin-test-helpers": "^0.3.2",
+    "truffle": "^5.0.13",
+    "web3": "^1.0.0-beta.52"
+  }
+}
